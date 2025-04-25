@@ -1,1 +1,8 @@
-spring.application.name=netty
+spring:
+  application:
+    name: netty
+
+
+netty:
+  port: 8088
+  bossThread: 1
